@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main id="main">
+<section class="white">
+    <h1 class="top"><span class="tag">#{{ .Title }}</span></h1>
+    <div class="page">
+    <nav class="taxonomy">
+        {{- partial "tags-all.html" . -}}
+    </nav>
+    <div class="tutorials">
+      {{ range .Paginator.Pages }}
+          {{- partial "preview.html" . -}}
+      {{ end }}
+    </div>
+    {{- template "_internal/pagination.html" . -}}
+    </div>
+</section>
+</main>
+{{ end }}

@@ -1,0 +1,43 @@
+/* global default styles */
+:root{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1{font-size:2.5rem;}
+h2{font-size:2rem;}
+h3{font-size:1.75rem;}
+h4{font-size:1.5rem;}
+h5{font-size:1.3rem;}
+h6{font-size:1.3rem;}
+body,p,div{font-size:1.3rem;}
+
+h1, h2 {color: $title-color;}
+
+a {
+    color: $link-color;
+}
+
+/* fontawesom icons */
+.inline-svg {
+    display: inline-block;
+    height: 1.15em;
+    width: 1.15em;
+    top: 0.15em;
+    position: relative;
+}
+
+main {
+    padding:2rem;
+}
+h1.top {
+    text-align: center;
+}
+main img {
+    width: 100%;
+}
+

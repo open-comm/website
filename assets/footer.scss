@@ -1,0 +1,20 @@
+footer nav {
+    display: flex;
+    margin: 2rem;
+    border-top: 1px solid $fish-bright;
+}
+footer nav div {
+    margin-right: 2rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer li {
+
+}
+
+footer .copyright {
+    max-width: 350px;
+}

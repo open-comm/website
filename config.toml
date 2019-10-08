@@ -1,0 +1,19 @@
+baseURL = "/"
+languageCode = "en"
+title = "Open Communication"
+DefaultContentLanguage = "en"
+
+
+[params]
+  description = "Research and documentation of decentralized, open and free communication tools."
+
+
+[languages]
+  [languages.en]
+    weight = 1
+    LanguageName = "English"
+
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true

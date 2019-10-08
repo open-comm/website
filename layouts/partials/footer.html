@@ -1,0 +1,41 @@
+<footer>
+    <nav>
+        <div class="copyright">
+            <h5>
+                <a href="{{ "about/cc-by" | relLangURL }}"
+                    style="text-decoration: none;" class="cc-license">
+                    {{ partial "fontawesome.html" "creative-commons" }}
+                    {{ partial "fontawesome.html" "creative-commons-by" }}
+                </a>
+            </h5>
+            <p>
+                {{ i18n "LicenseNotice" | markdownify }}
+            </p>
+            <p>
+                {{ i18n "CopyAndDistribute" }}
+            </p>
+        </div>
+        <div class="">
+            <h5>{{ i18n "Participate" }}</h5>
+            <ul>
+                <li><a href="https://git.open-communication.net/open-communication/website" target="_blank">
+                    {{ partial "fontawesome.html" "gitlab" }} 
+                    {{ i18n "WebSiteRepository" }}</a></li>
+                <!--<li><a href="" target="_blank">
+                    {{ partial "fontawesome.html" "envelope" }}
+                    {{ i18n "Mailinglist" }}</a></li>-->
+                <li><a href="{{ relLangURL "/" }}#services">{{ i18n "Services" }}</a></li>
+                <li><a href="{{ relLangURL "meetups" }}">{{ i18n "Meetups" }}</a></li>
+                <li><a href="{{ relLangURL "about" }}">{{ i18n "Imprint" }}</a></li>
+                <li><a href="{{ relLangURL "about" }}">{{ i18n "Privacy" }}</a></li>
+            </ul>
+        </div>
+        <div class="">
+            <h5>{{ i18n "KnowledgeBase" }}</h5>
+            <ul>
+                <li><a href="{{ relLangURL "apps" }}">{{ i18n "Apps" }}</a></li>
+                <li><a href="{{ relLangURL "protocols" }}">{{ i18n "Protocols" }}</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>

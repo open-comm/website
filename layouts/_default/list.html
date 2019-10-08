@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main id="main">
+<section class="white">
+    <div class="page">
+        <article>
+            {{ .Content }}
+        </article>
+    </div>
+    <div class="preview">
+        {{ range .Paginator.Pages }}
+            {{- partial "preview.html" . -}}
+        {{ end }}
+    </div>
+</section>
+</main>
+{{ end }}

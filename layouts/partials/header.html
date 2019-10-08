@@ -1,0 +1,30 @@
+<header>
+<nav class="main" role="navigation">
+    <div id="fish-nav">
+        <a href="{{ "/" | relLangURL }}" class="logo">
+        <img src="/img/open-communication_fish.svg" />
+        </a>
+        <a href="#" onclick="toggle_visibility('nav-top');" class="toggle">
+                {{ partial "fontawesome.html" "bars" }}
+        </a>
+    </div>
+    <div class="hide-nav" id="nav-top">
+        <a href="{{ relLangURL "/meetups" }}">{{ i18n "Meetups" }}</a>
+        <a href="{{ relLangURL "/apps" }}">Apps</a>
+        <a href="{{ relLangURL "/protocols" }}">Routing Protocols</a>
+<!--
+{{ range .Site.Taxonomies.categories }}
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+{{ end }}
+-->
+<!--
+        <a href="{{ relLangURL "/" }}#participation" class="icons" title="Contact" rel="noopener">
+            {{ partial "fontawesome.html" "envelope" }}
+        </a>
+        <a href="https://git.open-communication.net/open-communication" target="_blank" class="icons" title="Gitlab repository" rel="noopener">
+            {{ partial "fontawesome.html" "gitlab" }}
+        </a>
+-->
+    </div>
+</nav>
+</header>
