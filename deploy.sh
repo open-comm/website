@@ -7,4 +7,4 @@ rm -R ./public
 HUGO_DISABLELANGUAGES="" hugo
 
 # upload site to web server
-rsync -azhe "ssh -p 2323" ./public/ admin@open-communication.net:/home/admin
+rsync -azhe "ssh -p 2230" ./public/ admin@open-communication.net:/home/admin
