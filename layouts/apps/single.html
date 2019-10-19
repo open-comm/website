@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main id="main">
+<section class="white">
+    <h1 class="top">{{ .Title }}</h1>
+    <div class="page">
+    <nav class="tags">
+        {{- partial "tags-all.html" . -}}
+    </nav>
+    <nav class="infobox">
+        {{- partial "infobox.html" . -}}
+    </nav>
+    <article>
+        {{ .Content }}
+    </article>
+    </div>
+</section>
+</main>
+{{ end }}

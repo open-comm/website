@@ -1,0 +1,45 @@
+{{ if .Params.license }}
+<p>
+    License: {{ range .Params.license }}{{ . }}{{ end }}
+</p>
+{{ end }}
+{{ if .Params.systems }}
+<h5>Systems</h5>
+<ul>
+    {{ range .Params.systems }}
+        <li>{{ . | markdownify }}</li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ if .Params.links }}
+<h5>Links</h5>
+<ul>
+    {{ range .Params.links }}
+        <li>{{ . }}</li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ if .Params.installation }}
+<h5>Installation</h5>
+<ul>
+    {{ range .Params.installation }}
+        <li>{{ . | markdownify }}</li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ if .Params.connectivity }}
+<h5>Connectivity</h5>
+<ul>
+    {{ range .Params.connectivity }}
+        <li>{{ . | markdownify }}</li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ if .Params.features }}
+<h5>Features</h5>
+<ul>
+    {{ range .Params.features }}
+        <li>{{ . | markdownify }}</li>
+    {{ end }}
+</ul>
+{{ end }}
