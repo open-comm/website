@@ -5,17 +5,18 @@ License:
 Systems: 
   - Android
 Links:
-  - Homepage: https://briarproject.org
-  - Documentation: https://briarproject.org/manual/
-  - Source Code: https://code.briarproject.org/briar/briar/tree/master
+  - "[Homepage](https://briarproject.org)"
+  - "[Documentation](https://briarproject.org/manual/)"
+  - "[Source Code](https://code.briarproject.org/briar/briar/tree/master)"
 Installation:
   - Android Play Store
   - Android F-droid Store
-  - Internet download: https://briarproject.org/download.html
+  - "[Internet download](https://briarproject.org/download.html)"
 Connectivity:
   - Bluetooth
   - Wifi LAN
   - TOR
+
 Features:
   - Direct text messages
   - Group messages (on invitation only)

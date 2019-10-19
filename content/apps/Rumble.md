@@ -5,9 +5,9 @@ License:
 Systems: 
   - Android
 Links:
-  - Homepage: https://disruptedsystems.org
-  - Documentation: http://disruptedsystems.org
-  - Source code: https://github.com/Marlinski/Rumble
+  - Homepage https://disruptedsystems.org
+  - Documentation http://disruptedsystems.org
+  - Source code https://github.com/Marlinski/Rumble
 Installation:
   - Android Play Store
   - Android F-droid Store

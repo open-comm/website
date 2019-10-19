@@ -3,19 +3,19 @@
     License: {{ range .Params.license }}{{ . }}{{ end }}
 </p>
 {{ end }}
+{{ if .Params.links }}
+<h5>Links</h5>
+<ul>
+    {{ range .Params.links }}
+        <li>{{ . | markdownify }}</li>
+    {{ end }}
+</ul>
+{{ end }}
 {{ if .Params.systems }}
 <h5>Systems</h5>
 <ul>
     {{ range .Params.systems }}
         <li>{{ . | markdownify }}</li>
-    {{ end }}
-</ul>
-{{ end }}
-{{ if .Params.links }}
-<h5>Links</h5>
-<ul>
-    {{ range .Params.links }}
-        <li>{{ . }}</li>
     {{ end }}
 </ul>
 {{ end }}

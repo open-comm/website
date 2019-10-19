@@ -5,11 +5,11 @@ License:
 Systems: 
   - Android
 Links:
-  - Documentation: https://github.com/dakhnod/Meshenger/blob/master/docs/Documentation.md
-  - Source Code: https://github.com/dakhnod/Meshenger
+  - Documentation https://github.com/dakhnod/Meshenger/blob/master/docs/Documentation.md
+  - Source Code https://github.com/dakhnod/Meshenger
 Installation:
   - Android F-droid Store
-  - Internet download: https://github.com/dakhnod/Meshenger/releases
+  - Internet download https://github.com/dakhnod/Meshenger/releases
 Connectivity:
   - Wifi LAN
 Features:
