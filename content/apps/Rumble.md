@@ -22,7 +22,6 @@ Categories:
   - Apps
 ---
 
-<!-- Content -->
 # App Test Template
 
 ## Conclusion

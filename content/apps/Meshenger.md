@@ -50,6 +50,7 @@ Problems we found:
 
 
 ## Protocols
+
 * WebRTC for Video/Audio transmission
 * transmits username and mac address via QR-Code
 * connection is done via IPv6 link local addresses (fe80: + <mac address>)

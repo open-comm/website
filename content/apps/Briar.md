@@ -32,7 +32,8 @@ Categories:
 
 Briar works, but it's not really fun to communicate with. The user interface is very text based and not easy to use. E.g. One can not easily see invitations into new groups, the invitation is only visible in the stream of the inviting person.
 
-Feedback:
+**Feedback**
+
 * Most importantly there should be a much more informative user interface.
 * The security approach is working strongly against communication.
 
@@ -41,7 +42,8 @@ Feedback:
 
 We tested on Android 7,8,9 and linageOS 14 & 15.
 
-We were able to:
+**We were able to**
+
 * install and run the software on all the devices
 * add contacts (scanning each others QR codes to connect)
   * introduce contacts to each other
@@ -55,7 +57,7 @@ We were able to:
 
 We haven't tested the TOR connection feature.
 
-Problems
+**Problems**
 
 * On one phone there was a strange icon flickering after installation
 * Bluetooth communication was problematic. 
