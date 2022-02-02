@@ -13,6 +13,4 @@ You're invited to organize and/or participate in such meetups and help enlarging
 
 The following decentralized services are run by the 
 
-* [Cryptpad](https://cryptpad.open-communication.net)
 * [Etherpad Lite](https://pad.open-communication.net)
-* [Gitlab](https://git.open-communication.net)
